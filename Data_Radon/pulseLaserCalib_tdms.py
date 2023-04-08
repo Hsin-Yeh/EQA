@@ -5,6 +5,7 @@ import pandas as pd
 import argparse
 import matplotlib.pyplot as plt
 import numpy as np
+
 parser = argparse.ArgumentParser(description='')
 parser.add_argument('in_filenames',nargs="+",help='input filenames')
 parser.add_argument('--outputDir','-d',default="./",type=str,help='output directory')
